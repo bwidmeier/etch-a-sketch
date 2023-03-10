@@ -1,0 +1,29 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+.row {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.cell {
+    flex: 1 1 0;
+}
+
+.hovered {
+    background-color: darkgoldenrod;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+button {
+    max-width: 100px;
+}
